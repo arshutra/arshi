@@ -1,0 +1,357 @@
+    <!-- 17-12-202  2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- linkssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+<link rel="stylesheet" href="index.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/MotionPathPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+<script src="https://kit.fontawesome.com/7d6798967a.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="container">
+
+        <!-- flow-1 -->
+        
+        <div id="flow-1">
+            <div class="left-menu">
+                <nav class="nav-left">
+                    <ul>
+                        <li onclick="home()"><i class='fas fa-home' style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"></i></li>
+                        <li onclick="skill()"><i class="fa fa-gears" style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"></i></li>
+                        <li onclick="work()"><i class='fas fa-toolbox' style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"></i></li>
+                        <li onclick="resum()"><i class='fas fa-file-alt' style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px;  margin-top: 30px;"></i></li>
+                        <li onclick="resum()"><i class='fas fa-link' style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"></i></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-content">
+                <div class="left-content">
+                   <h2>Hello there! I'm</h2>
+                   <h1></h1>
+                   <h3>I am a Front-end Developer (and occasionally designing) <br> exceptional digital experiences. I like to code things  from <br> scratch, and enjoy bringing ideas to life in the browser.</h3>
+                   <button onclick="work()">SEE MY WORK <i class="fa fa-arrow-circle-right" style="margin-left:15px;"></i></button>
+                </div>
+            </div>
+            <div>
+                <svg class="draw" width="502" height="1021" viewBox="0 0 502 1021" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M258.405 120.514C243.759 122.058 233.138 135.184 234.683 149.83C236.227 164.477 249.353 175.098 263.999 173.553C278.645 172.008 289.266 158.883 287.722 144.236C286.177 129.59 273.052 118.969 258.405 120.514ZM442.076 1.90811C452.778 62.715 425.427 107.936 386.699 133.029C347.646 158.332 297.72 162.782 263.744 142.727L258.661 151.339C296.686 173.784 350.746 168.239 392.136 141.421C433.851 114.393 463.399 65.3678 451.924 0.174724L442.076 1.90811Z" fill="#1400FA"/>
+                    <path d="M356 378.542C321.206 378.542 293 348.612 293 313.542C293 278.471 321.206 250.042 356 250.042" stroke="#11F20C" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M68.9783 700.542C34.1843 700.542 5.97827 670.612 5.97827 635.542C5.97827 600.471 34.1843 572.042 68.9783 572.042" stroke="#EC3030" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M421 318.042C419.803 352.815 389.049 379.748 354 378.542C318.951 377.336 291.97 348.815 293.167 314.042" stroke="#11F20C" stroke-width="10"/>
+                    <path d="M133.978 640.042C132.782 674.815 102.028 701.748 66.9783 700.542C31.9289 699.336 4.9483 670.815 6.14482 636.042" stroke="#EC3030" stroke-width="10"/>
+                    <line x1="421.072" y1="315.105" x2="422.929" y2="184.97" stroke="#11F20C" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M134.05 637.106L134.05 280.542" stroke="#EC3030" stroke-width="10" stroke-linecap="round"/>
+                    <rect x="255" y="421.042" width="167" height="423" rx="83.5" stroke="#FDC80E" stroke-width="10"/>
+                    <path d="M339 1015.04C339 959.813 436.301 899.042 496.5 899.042" stroke="#8C00FA" stroke-width="10" stroke-linecap="round"/>
+                    <line x1="57" y1="62.0414" x2="57" y2="497.041" stroke="#FF6E04" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M70.9866 749.02C36.1929 748.88 7.86686 778.697 7.726 813.767C7.58514 848.836 35.6768 877.379 70.4704 877.519" stroke="#10A9FF" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M135.743 809.781C134.686 775.003 104.04 747.947 68.9865 749.012C33.9326 750.077 6.8376 778.489 7.89444 813.267" stroke="#10A9FF" stroke-width="10"/>
+                    <path d="M135.803 812.717L132.678 1004.18" stroke="#10A9FF" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M396 2.04144C396 56.1653 350.557 100.041 294.5 100.041C238.443 100.041 193 56.1653 193 2.04144" stroke="#C127B2" stroke-width="10"/>
+                </svg>
+            </div>
+            <div class="right-menu">
+                <nav class="nav-right">
+                    <ul>
+                        <li style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"><a href="https://www.instagram.com/_codewidme_/" target="_blank"><i class='fab fa-instagram' style="color: var(--color);"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/arshiya-tabassum-814a88212/" target="_blank"><i class='fab fa-linkedin' style="border: 2px solid var(--color); color: var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"></i></a></li>
+                        <li><a href="https://github.com/arshutra" target="_blank"><i class='fab fa-github' style="border: 2px solid var(--color); color: var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;"></i></a></li>
+                        <li style="border: 2px solid var(--color); padding: 15px; border-radius: 50%; width: 30px; margin-top: 30px;">
+                        <a href="mailto:arshihussainn@gmail.com"><i class='fas fa-mail-bulk' style='color: var(--color);'></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- flow-2 -->
+
+        <div id="flow-2">
+            <div class="skill-board">
+                <div class="skill">SKILLS BOARD</div>
+            </div>
+            <div class="flex">
+                <svg width="839" height="231" viewBox="0 0 839 231" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="path" d="M718 3H124C90.4729 4.52396 61.7604 9.7911 37.5 35C21.9621 51.1454 3 74.7014 3 115.5C3 160.923 33 196 53 209C73 222 93.5 228.5 125 228.5C234.513 226.208 387.168 226.468 512.5 227C633.224 227.513 741.5 227 741.5 227C741.5 227 836.5 219.406 836.5 114.5C836.5 28.5 775.833 8.16667 718 3Z" stroke=var(--color) stroke-width="5"/>
+                </svg>
+                <div class="illustration">Illustration</div>
+                    <div class="Graphic" style=" font-size: 20px; ">Graphic Design</div>
+                    <div class="Prototype" style=" font-size: 20px; ">Prototype</div>
+                    <div class="Prototype" style=" font-size: 20px; ">Prototype</div>
+                    <div class="html" style=" font-size: 20px; ">HTML</div>
+                    <div class="css" style=" font-size: 20px; ">CSS</div>
+                    <div class="js" style=" font-size: 20px; ">JavScript</div>
+                    <div class="wp" style=" font-size: 20px; ">WorPress</div>
+                    <div class="fig" style=" font-size: 20px; ">Figma</div>
+                    <div class="gsap" style=" font-size: 20px; ">GSAP</div>
+                    <div class="Front-end" style=" font-size: 20px; ">Front-end</div>
+                </div>
+                <div class="wrapper">
+                    <div class="grid">
+                        <div class="g1"><i class='fab fa-html5' style="color: rgb(254, 91, 4); font-size: 30px;"></i> HTML</div>
+                        <div class="g2"><i class='fab fa-css3-alt' style="color: rgb(10, 168, 231); font-size: 30px;"></i> CSS</div>
+                        <div class="g3"><i class='fab fa-js-square' style="color: rgb(227, 209, 6); font-size: 30px;"></i> JavaScript</div>
+                        <div class="g4"><i class='fab fa-wordpress' style="color: rgb(11, 80, 158); font-size: 30px;"></i> WorPress</div>
+                        <div class="g5"><i class='fab fa-figma'style="color: green; font-size: 30px;"></i> Figma</div>
+                        <div class="g6"><img src="logo-banner.png" width="30px"> GSAP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- flow-3 -->
+
+        <div id="flow-3">
+                <div class="skill-board">
+                    <div class="skill">SHOWCASE</div>
+                </div>
+                <div class="work">
+                    <div class="flex1">
+                        <div class="one">
+                            <p>This website was developed for a  <br> hospial located in the United States <br><span style="color: var(--color);">Solution:</span> Helped to achieve a consistent look <br> and visual theme across the website <br> by promoting uniform fonts, <br> formatting, images, and layout.<br> <button> <a href="https://umcpc.com/" target="_blank"  style="text-decoration: none; color: var(--color);">Visit</a></button></p>
+                        </div>
+                        <div class="two">
+                            <p>A blog website for personal finance.<br><span style="color: var(--color);">Solution:</span> Maintained a custom  WordPress<br>theme for the company's blog Worked <br>with clients to gatherrequirements and <br>implement  custom solutions.<br> <button><a href="https://enricopugliese.com/" target="_blank"  style="text-decoration: none; color: var(--color);">Visit</a></button></p>
+                        </div>
+                    </div>
+                    <div class="flex2">
+                        <div class="three">
+                            <p>Music concert/club website<br> <span style="color: var(--color);">Solution: </span>Interfaced with clients to identify <br> business requirements. Worked with <br> a proficient understanding of code <br> conversion tools.<br><button>Visit</button></p>
+                        </div>
+                        <div class="four">
+                            <p>Wedding dress website<br> <span style="color: var(--color);">Solution:</span> Designed and developed responsive<br> websites using HTML, CSS, and JavaScrip.<br> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+     <!-- footer -->
+        <div class="footer">
+            <div class="resum">
+                <button class="resume"><a href="https://drive.google.com/file/d/1o3B3KtPll4gKx1VO2X58GYh7NcH2ambw/view?usp=share_link" target="_blank">Resume</a></button>
+            </div>
+
+            <div class="skill-board"><div class="connect">Connect with me</div></div>
+        <div class="socialmedia">
+            <div class="insta"> 
+                <div class="write">Instagram</div>
+                <div class="icon"><a href="https://www.instagram.com/_codewidme_/" target="_blank"><i class="fa fa-instagram" style="color: white;"></i></a></div>
+            </div>
+            <div class="link">
+                <div class="write">Linkedin</div>
+                <div class="icon"><a href="https://www.linkedin.com/in/arshiya-tabassum-814a88212/" target="_blank"><i class='fab fa-linkedin' style="color: white;"></i></a></div>
+            </div>
+            <div class="github">
+                <div class="write">Github</div>
+                <div class="icon"><a href="https://github.com/arshutra" target="_blank"><i class='fab fa-github' style="color: aliceblue;"></i></a></div>
+            </div>
+            <div class="mail">
+                <div class="write" style="font-size: 28px;">Shoot me a mail</div>
+                <div class="icon"><a href="mailto:arshihussainn@gmai.com"><i class='fas fa-mail-bulk' style="color: aliceblue;"></i></a></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Built From Scratch With 🖤 © Copyright 2022, arshiya tabassum. All Rights Reserved.</p>
+        </div>
+        </div>  
+            
+
+       
+    <script>
+       
+    //    skillsssssss sectionnnn
+
+        gsap.to(".illustration", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+      }
+      })
+     gsap.to(".Graphic", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:1,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+         }
+        })
+        gsap.to(".Prototype", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:2,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+        }
+        })
+        gsap.to(".html", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:3,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+      }
+        })
+        gsap.to(".css", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:4,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+     }
+        })
+        gsap.to(".js", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:5,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+       }
+        })
+        gsap.to(".Front-end", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:9,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+         }
+        })
+        gsap.to(".wp", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:6,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+         }
+        })
+        gsap.to(".fig", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:7,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+     }
+        })
+        gsap.to(".gsap", {
+        duration:10,
+        ease:"none",
+        repeat: -1,
+        delay:8,
+        motionPath:{
+        path: "#path",
+        align:"#path",
+        alignOrigin: [0.5, 0.5],
+        curviness:3,
+     }
+        })
+
+        // scroll to section
+        function home() {
+            gsap.to(window,{
+                scrollTo:"#flow-1",
+                duration:1
+            })
+            
+        }
+        function work() {
+            gsap.to(window,{
+                scrollTo:"#flow-3",
+                duration:1
+            })
+            
+        }
+        function skill() {
+            gsap.to(window,{
+                scrollTo:"#flow-2",
+                duration:1
+            })
+            
+        }
+        function resum() {
+            gsap.to(window,{
+                scrollTo:".footer",
+                duration:1
+            })
+            
+        }
+
+        // mennuu staggerr
+
+        gsap.from(".nav-left>ul>li",{
+            x:-80,
+            duration:1,
+            stagger:0.2
+        })
+
+        gsap.from(".nav-right>ul>li",{
+            x:80,
+            duration:1,
+            stagger:0.2
+        })
+
+        // arshiya tabassum
+
+        gsap.to(".left-content>h1",{
+            text:"ARSHIYA TABASSUM",
+            ease:"power1",
+            duration:3
+        })
+       
+
+
+       
+    </script>
+    
+
+</body>
+</html>
