@@ -262,7 +262,7 @@
 
 /* projects */
 
-.flex1,.flex2,.flex3{
+.flex1,.flex2{
     margin-top: 90px;
     height:300px;
     width: 1530px;
@@ -525,7 +525,7 @@
 /* uska content */
 
 .three>p{
-    background-color: rgba(2, 136, 180, 0.704);
+    background-color: rgb(30, 33, 37);
     opacity: 0;
     border-radius:20px;
     color: var(--bg-color);
@@ -546,7 +546,7 @@
 
 .three>p:hover{
     transition: 0.5s;
-    background-color: rgba(2, 24, 114, 0.716);
+    background-color: rgb(30, 33, 37);
     opacity: 2;
     border-radius:20px;
     color: var(--txt-color);
