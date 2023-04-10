@@ -524,7 +524,7 @@
 /* uska content */
 
 .three>p{
-    background-color: rgb(30, 33, 37);
+    background-color: rgb(30, 33, 0.645);
     opacity: 0;
     border-radius:20px;
     color: var(--bg-color);
@@ -545,7 +545,7 @@
 
 .three>p:hover{
     transition: 0.5s;
-    background-color: rgb(30, 33, 37);
+    background-color: rgb(30, 33, 0.635);
     opacity: 2;
     border-radius:20px;
     color: var(--txt-color);
